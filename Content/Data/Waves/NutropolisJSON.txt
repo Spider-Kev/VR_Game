@@ -1,0 +1,435 @@
+{
+  "gameModeId": 1,
+  "gameModeName": "Campaign",
+  "enemyTypes": [
+    {
+      "id": 0,
+      "name": "FastFries"
+    },
+    {
+      "id": 1,
+      "name": "RollingDonut"
+    },
+    {
+      "id": 2,
+      "name": "SodaBomber"
+    },
+    {
+      "id": 3,
+      "name": "StickyPizza"
+    },
+    {
+      "id": 4,
+      "name": "ArmoredBurgerBoss"
+    }
+  ],
+  "levels": [
+    {
+      "levelId": 1,
+      "displayName": "Vitamin Plaza",
+      "startingResources": 120,
+      "baseHP": 1500,
+      "spawnPoints": [
+        {
+          "id": 0,
+          "name": "Left"
+        },
+        {
+          "id": 1,
+          "name": "Center"
+        },
+        {
+          "id": 2,
+          "name": "Right"
+        }
+      ],
+      "waves": [
+        {
+          "waveId": 0,
+          "name": "InitialTutorial",
+          "durationTarget": 60,
+          "endWaveBonus": 0,
+          "entries": [
+            {
+              "enemyTypeId": 0,
+              "spawnPointId": 1,
+              "count": 4,
+              "startTime": 0.0,
+              "interval": 1.2
+            },
+            {
+              "enemyTypeId": 0,
+              "spawnPointId": 0,
+              "count": 2,
+              "startTime": 6.0,
+              "interval": 1.4
+            }
+          ]
+        },
+        {
+          "waveId": 1,
+          "name": "FirstDefense",
+          "durationTarget": 60,
+          "endWaveBonus": 20,
+          "entries": [
+            {
+              "enemyTypeId": 0,
+              "spawnPointId": 1,
+              "count": 6,
+              "startTime": 0.0,
+              "interval": 0.9
+            },
+            {
+              "enemyTypeId": 0,
+              "spawnPointId": 0,
+              "count": 4,
+              "startTime": 4.0,
+              "interval": 1.0
+            },
+            {
+              "enemyTypeId": 1,
+              "spawnPointId": 2,
+              "count": 3,
+              "startTime": 9.0,
+              "interval": 2.0
+            }
+          ]
+        },
+        {
+          "waveId": 2,
+          "name": "MultiLanePressure",
+          "durationTarget": 75,
+          "endWaveBonus": 25,
+          "entries": [
+            {
+              "enemyTypeId": 0,
+              "spawnPointId": 1,
+              "count": 8,
+              "startTime": 0.0,
+              "interval": 0.8
+            },
+            {
+              "enemyTypeId": 0,
+              "spawnPointId": 0,
+              "count": 4,
+              "startTime": 5.0,
+              "interval": 0.9
+            },
+            {
+              "enemyTypeId": 1,
+              "spawnPointId": 2,
+              "count": 3,
+              "startTime": 8.0,
+              "interval": 1.8
+            },
+            {
+              "enemyTypeId": 1,
+              "spawnPointId": 0,
+              "count": 2,
+              "startTime": 14.0,
+              "interval": 2.0
+            },
+            {
+              "enemyTypeId": 2,
+              "spawnPointId": 1,
+              "count": 2,
+              "startTime": 20.0,
+              "interval": 3.0
+            }
+          ]
+        },
+        {
+          "waveId": 3,
+          "name": "FirstRealWave",
+          "durationTarget": 90,
+          "endWaveBonus": 30,
+          "entries": [
+            {
+              "enemyTypeId": 0,
+              "spawnPointId": 0,
+              "count": 4,
+              "startTime": 0.0,
+              "interval": 0.9
+            },
+            {
+              "enemyTypeId": 0,
+              "spawnPointId": 1,
+              "count": 4,
+              "startTime": 2.0,
+              "interval": 0.9
+            },
+            {
+              "enemyTypeId": 0,
+              "spawnPointId": 2,
+              "count": 2,
+              "startTime": 5.0,
+              "interval": 1.0
+            },
+            {
+              "enemyTypeId": 1,
+              "spawnPointId": 0,
+              "count": 2,
+              "startTime": 8.0,
+              "interval": 2.0
+            },
+            {
+              "enemyTypeId": 1,
+              "spawnPointId": 1,
+              "count": 3,
+              "startTime": 10.0,
+              "interval": 2.2
+            },
+            {
+              "enemyTypeId": 1,
+              "spawnPointId": 2,
+              "count": 1,
+              "startTime": 14.0,
+              "interval": 2.2
+            },
+            {
+              "enemyTypeId": 2,
+              "spawnPointId": 1,
+              "count": 2,
+              "startTime": 18.0,
+              "interval": 3.2
+            },
+            {
+              "enemyTypeId": 2,
+              "spawnPointId": 2,
+              "count": 2,
+              "startTime": 24.0,
+              "interval": 3.0
+            },
+            {
+              "enemyTypeId": 3,
+              "spawnPointId": 0,
+              "count": 1,
+              "startTime": 28.0,
+              "interval": 0.0
+            },
+            {
+              "enemyTypeId": 3,
+              "spawnPointId": 2,
+              "count": 1,
+              "startTime": 34.0,
+              "interval": 0.0
+            }
+          ]
+        },
+        {
+          "waveId": 4,
+          "name": "CoveragePunish",
+          "durationTarget": 100,
+          "endWaveBonus": 35,
+          "entries": [
+            {
+              "enemyTypeId": 0,
+              "spawnPointId": 0,
+              "count": 5,
+              "startTime": 0.0,
+              "interval": 0.8
+            },
+            {
+              "enemyTypeId": 0,
+              "spawnPointId": 1,
+              "count": 4,
+              "startTime": 3.0,
+              "interval": 0.9
+            },
+            {
+              "enemyTypeId": 0,
+              "spawnPointId": 2,
+              "count": 5,
+              "startTime": 7.0,
+              "interval": 0.8
+            },
+            {
+              "enemyTypeId": 1,
+              "spawnPointId": 0,
+              "count": 2,
+              "startTime": 10.0,
+              "interval": 2.0
+            },
+            {
+              "enemyTypeId": 1,
+              "spawnPointId": 1,
+              "count": 2,
+              "startTime": 14.0,
+              "interval": 2.0
+            },
+            {
+              "enemyTypeId": 1,
+              "spawnPointId": 2,
+              "count": 2,
+              "startTime": 18.0,
+              "interval": 2.0
+            },
+            {
+              "enemyTypeId": 2,
+              "spawnPointId": 0,
+              "count": 2,
+              "startTime": 22.0,
+              "interval": 3.2
+            },
+            {
+              "enemyTypeId": 2,
+              "spawnPointId": 2,
+              "count": 2,
+              "startTime": 26.0,
+              "interval": 3.2
+            },
+            {
+              "enemyTypeId": 3,
+              "spawnPointId": 1,
+              "count": 1,
+              "startTime": 30.0,
+              "interval": 0.0
+            },
+            {
+              "enemyTypeId": 3,
+              "spawnPointId": 2,
+              "count": 2,
+              "startTime": 36.0,
+              "interval": 2.5
+            }
+          ]
+        },
+        {
+          "waveId": 5,
+          "name": "PreBoss",
+          "durationTarget": 110,
+          "endWaveBonus": 40,
+          "entries": [
+            {
+              "enemyTypeId": 0,
+              "spawnPointId": 1,
+              "count": 4,
+              "startTime": 0.0,
+              "interval": 0.7
+            },
+            {
+              "enemyTypeId": 0,
+              "spawnPointId": 2,
+              "count": 6,
+              "startTime": 3.0,
+              "interval": 0.8
+            },
+            {
+              "enemyTypeId": 1,
+              "spawnPointId": 1,
+              "count": 4,
+              "startTime": 8.0,
+              "interval": 1.8
+            },
+            {
+              "enemyTypeId": 1,
+              "spawnPointId": 2,
+              "count": 4,
+              "startTime": 12.0,
+              "interval": 1.8
+            },
+            {
+              "enemyTypeId": 2,
+              "spawnPointId": 0,
+              "count": 2,
+              "startTime": 18.0,
+              "interval": 2.8
+            },
+            {
+              "enemyTypeId": 2,
+              "spawnPointId": 1,
+              "count": 1,
+              "startTime": 25.0,
+              "interval": 0.0
+            },
+            {
+              "enemyTypeId": 2,
+              "spawnPointId": 2,
+              "count": 2,
+              "startTime": 30.0,
+              "interval": 3.0
+            },
+            {
+              "enemyTypeId": 3,
+              "spawnPointId": 0,
+              "count": 2,
+              "startTime": 36.0,
+              "interval": 2.5
+            },
+            {
+              "enemyTypeId": 3,
+              "spawnPointId": 2,
+              "count": 2,
+              "startTime": 44.0,
+              "interval": 2.5
+            }
+          ]
+        },
+        {
+          "waveId": 6,
+          "name": "FinalBoss",
+          "durationTarget": 120,
+          "endWaveBonus": 50,
+          "entries": [
+            {
+              "enemyTypeId": 4,
+              "spawnPointId": 1,
+              "count": 1,
+              "startTime": 0.0,
+              "interval": 0.0
+            },
+            {
+              "enemyTypeId": 1,
+              "spawnPointId": 1,
+              "count": 4,
+              "startTime": 4.0,
+              "interval": 2.2
+            },
+            {
+              "enemyTypeId": 0,
+              "spawnPointId": 1,
+              "count": 3,
+              "startTime": 6.0,
+              "interval": 0.8
+            },
+            {
+              "enemyTypeId": 0,
+              "spawnPointId": 0,
+              "count": 3,
+              "startTime": 10.0,
+              "interval": 0.9
+            },
+            {
+              "enemyTypeId": 2,
+              "spawnPointId": 0,
+              "count": 1,
+              "startTime": 18.0,
+              "interval": 0.0
+            },
+            {
+              "enemyTypeId": 0,
+              "spawnPointId": 2,
+              "count": 2,
+              "startTime": 14.0,
+              "interval": 0.9
+            },
+            {
+              "enemyTypeId": 1,
+              "spawnPointId": 2,
+              "count": 2,
+              "startTime": 20.0,
+              "interval": 2.0
+            },
+            {
+              "enemyTypeId": 2,
+              "spawnPointId": 2,
+              "count": 2,
+              "startTime": 26.0,
+              "interval": 3.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
